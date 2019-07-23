@@ -8,5 +8,5 @@ Feature: Sales
     And I mouseover "Sales" dropdown
     And I click "Opportunities" option
     And I verify the page name of "Open Opportunities"
-    Then I verify the page title of "Tsoomoo"
+    Then I verify the page title of "Open Opportunities - Opportunities - Sales"
 
