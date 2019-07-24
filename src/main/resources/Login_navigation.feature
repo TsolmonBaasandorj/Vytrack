@@ -1,4 +1,4 @@
-Feature: Home page
+Feature: Login_navigation
   Background:
     Given I navigate to "http://qa3.vytrack.com/"
 

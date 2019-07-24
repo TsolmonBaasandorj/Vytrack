@@ -1,4 +1,4 @@
-Feature: Home page
+Feature: Fleet
   Background:
     Given I navigate to "http://qa3.vytrack.com/"
 
