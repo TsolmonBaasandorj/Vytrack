@@ -9,7 +9,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
         features ={"/Users/Tsolmon/IdeaProjects/vytrackCukesautomation/src/main/resources"}
         //features ={"/Users/Tsolmon/IdeaProjects/vytrackCukesautomation/src/main/resources"}
         ,glue = {"Step_definition"}
-        ,tags= {"@smoke"}
+       // ,tags= {"@smoke"}
         //,tags= {"@regression"}
 )
 
