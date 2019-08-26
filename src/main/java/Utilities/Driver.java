@@ -19,6 +19,7 @@ public class Driver {
             if (browser.equalsIgnoreCase("Chrome")) {
                 System.setProperty("webdriver.chrome.driver", "/Users/Tsolmon/Documents/selenium dependencies/drivers/ChromeDriver");
                 driver = new ChromeDriver();
+                CucumberUtils.logInfo("==got chrome driver");
             } else if (browser.equalsIgnoreCase("Firefox")) {
                 System.setProperty("webdriver.firefox.driver", "/Users/Tsolmon/Documents/selenium dependencies/drivers/gecko");
                 driver = new FirefoxDriver();

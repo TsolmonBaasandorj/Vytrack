@@ -4,7 +4,7 @@ Feature: Dashboard
 
    @smoke
   Scenario: Menu options , store manager
-    And I enter "Store manager" credentials to userName and Password textbox
+     And I login as "Store manager"
     And I mouseover "Dashboards" dropdown
     And I click "Dashboard" option
     And I verify the page name of "Dashboard"

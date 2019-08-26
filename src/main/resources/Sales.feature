@@ -4,7 +4,7 @@ Feature: Sales
 
     @smoke @regression
   Scenario: Menu options , store manager
-    And I enter "Store manager" credentials to userName and Password textbox
+      And I login as "Store manager"
     And I mouseover "Sales" dropdown
     And I click "Opportunities" option
     And I verify the page name of "Open Opportunities"
